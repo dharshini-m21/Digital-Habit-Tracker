@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+#Digital Habit Tracker App
+A Digital Habit Tracker App that helps users build consistent routines by tracking daily habits, weekly tasks, and monthly goals in one place. Users can mark habits with checkboxes, monitor streaks, analyze progress through charts and analytics, manage todo lists, and improve productivity with reminders, dark mode, and a modern responsive dashboard.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#Usage Guide
+#Sign Up
 
-## Available Scripts
+Click Sign Up on the auth screen
+Enter any name, email, and password
+Click Create Account
 
-In the project directory, you can run:
+#Adding Habits
 
-### `npm start`
+Go to Habit Tracker in the sidebar
+Click + Add Habit
+Enter a name and choose a category (Health, Fitness, Learning, etc.)
+Click Add
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+#Tracking Daily Habits
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+On the Dashboard, click any habit row to toggle completion for today
+On the Habit Tracker page, click any day cell in the grid to mark it complete
+Streaks (🔥) update automatically
 
-### `npm test`
+#Weekly Todos
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Go to Weekly Todos
+Click + Add Task, enter text and set priority
+Click the checkbox to mark done
+Use filter buttons: All / Pending / Done / High Priority
 
-### `npm run build`
+#Monthly Goals
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Go to Monthly Goals
+Click + Add Goal, optionally set a deadline
+Use the status dropdown to move goals: todo → in-progress → done
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#Analytics
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+View the 12-week heatmap to see your activity patterns
+The line chart shows monthly completion trends over the year
+Category bars show which habit types you're most consistent with
 
-### `npm run eject`
+#Achievements
+Badges unlock automatically based on your activity:
+BadgeRequirement🌱 First StepAdd your first habit🔥 Week WarriorAchieve a 7-day streak👑 Month MasterAchieve a 30-day streak⚡ Task ChampionComplete 10 total todos💎 Consistency KingComplete 5 habits in one day
+#Exporting Data
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Go to Settings
+Click Export Backup (JSON)
+A habitflow-backup.json file downloads to your computer
